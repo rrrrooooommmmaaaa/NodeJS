@@ -1,4 +1,4 @@
-var os = require("os")
+const os = require('os')
 
 console.log('type : ' + os.type()); // тип ОС
 console.log('platform : ' + os.platform()); // платформа
